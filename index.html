@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>aghorui</title>
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow" />
+	<link rel="icon" href="favicon.png" />
+	<style>
+.fg {
+	max-width: 500px;
+	margin: auto;
+	line-height: 1.8;
+	text-align: justify;
+	font-weight: 200;
+	font-family: 'Barlow', Calibri, Noto Sans, Sans-Serif;
+	padding: 10px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #DEDEDE;
+}
+
+.title-image {
+	width: 100%;
+	height: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.nav {
+	display: flex;
+	text-align: center;
+	margin-top: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	gap: 10px;
+}
+
+.project {
+	padding-bottom: 10px;
+}
+
+a {
+	color: #005CB2;
+	text-decoration: none;
+}
+
+.project .title, .ext-link {
+	font-weight: bold;
+	color: #005CB2;
+	text-decoration: none;
+}
+
+.ext-link {
+	border: 1px solid #DEDEDE;
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+}
+
+.ext-link:hover {
+	border: 1px solid #D0D0D0;
+	background-color: 1px solid #E0E0E0;
+
+}
+
+@keyframes marquee_move {
+	0%   {background-position-x: 0px;}
+	100% {background-position-x: 14px;}
+}
+
+.marquee {
+	background-image: linear-gradient(to right, #000 10px, rgba(255, 255, 255, 0) 4px);
+	background-position: top;
+	background-size: 14px 10px;
+	background-repeat: repeat-x;
+	animation-name: marquee_move;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 0.5s;
+	height: 10px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: right;
+	font-size: small;
+	color: grey;
+	margin-top: 30px;
+}
+
+.footer:target {
+	background-color: #FFFFD2;
+	padding: 15px;
+}
+	</style>
+</head>
+
+<body>
+	<div class="fg" style="">
+
+		<img class="title-image" src="logo.svg" alt="[[ag]]"/>
+
+		<div class="marquee"> </div>
+
+		<p class="nav">
+			<a class="ext-link" target="_blank" href="https://github.com/aghorui">
+				Github
+			</a>
+
+			<a class="ext-link" target="_blank" href="https://github.com/aghorui/forum">
+				Forum
+			</a>
+
+			<a class="ext-link" target="_blank" href="/pubkey.txt">
+				GPG Key
+			</a>
+
+			<a class="ext-link" href="#footer">
+				Contact
+			</a>
+		</p>
+
+		<h2 style="text-align: center;"><u>Projects:</u></h2>
+
+		<p class="project">
+			<a class="title" href="https://aghorui.github.io/boltzmanntex/">BoltzmannTex</a>:
+			A program for performing predefined transformations and visualisations
+			on acquired data using simple Graphical User Intefaces. Mainly meant for implementation of
+			convenient calculation interfaces for well understood scientific problems.
+		</p>
+
+		<p class="project">
+			<a class="title" href="https://gist.github.com/daujerrine/7dba27669a997d6b38c33141b2893198">FLIF Codec for FFmpeg</a>:
+			I had written an implementation of a <a href="https://flif.info/">FLIF</a> codec as a
+			GSoC 2020 Project for FFmpeg along with one other person. A completed,
+			working decoder and format reader was finished within the project
+			period.
+		</p>
+
+		<h2 style="text-align: center;"><u>Ongoing Stuff:</u></h2>
+
+		<p class="project">
+			<a class="title" href="https://github.com/aghorui/blindforth">BlindForth</a>:
+			A C++ implementation of the Forth Language being done with a very
+			vague idea of what Forth actually is.
+		</p>
+
+		<p class="project">
+			<a class="title" href="https://github.com/aghorui/dotland">Dotland</a>:
+			More info later.
+		</p>
+
+		<p class="project">
+			<a class="title" href="https://github.com/aghorui/haskellbook">A Haskell Guide</a>:
+			An unfinished guide on Haskell that I wrote as I was learning it. Will get back to it soon™.
+		</p>
+
+		<hr />
+		<p class="footer" id="footer">
+			<i>Copyright (C) 2022-2023 aghorui</i> <br/>
+			<img src="verygoodimage.svg" alt="contact" />
+		</p>
+	</div>
+</body>
+</html>

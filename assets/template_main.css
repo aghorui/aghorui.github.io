@@ -25,6 +25,7 @@ pre {
 	padding: 5px;
 	margin: 5px;
 	background: #eeeeee !important;
+	overflow: auto;
 }
 
 pre code {

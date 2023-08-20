@@ -1,0 +1,169 @@
+hr {
+	border: none;
+	border-top: 1px solid #DEDEDE;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #005CB2;
+	text-decoration: none;
+}
+
+code {
+	background-color: #eeeeee;
+	padding: 2px;
+	border-radius: 2px;
+}
+
+pre {
+	border-radius: 3px;
+	border: 1px solid grey;
+	padding: 5px;
+	margin: 5px;
+	background: #eeeeee !important;
+}
+
+pre code {
+	background-color: transparent;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr td {
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+table tr:nth-of-type(even) {
+	background-color: #cccccc;
+}
+
+table tr:nth-of-type(odd) {
+	background-color: #bbbbbb;
+}
+
+table tr th {
+	border: 1px solid grey;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #eeeeee;
+	text-align:center;
+}
+
+blockquote {
+	border-left: 2px solid #dddddd;
+	padding-left: 20px;
+	color: grey;
+	font-style: italic;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	line-height: 1.8;
+	text-align: justify;
+	font-weight: 200;
+	font-family: Calibri, Noto Sans, Sans-Serif;
+	padding: 10px;
+}
+
+.footer {
+	text-align: right;
+	font-size: small;
+	color: grey;
+	margin-top: 30px;
+}
+
+.headerlinks {
+	display: flex;
+	gap: 20px;
+}
+
+.headerlinks a {
+	display: inline-block;
+}
+
+.fg {
+	max-width: 500px;
+	margin: auto;
+	line-height: 1.8;
+	text-align: justify;
+	font-weight: 200;
+	font-family: 'Barlow', Calibri, Noto Sans, Sans-Serif;
+	padding: 10px;
+}
+
+.title-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 374 / 175;
+}
+
+.nav {
+	display: flex;
+	text-align: center;
+	margin-top: 30px;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	gap: 10px;
+}
+
+.project {
+	padding-bottom: 10px;
+}
+
+.project .title, .ext-link {
+	font-weight: bold;
+	color: #005CB2;
+	text-decoration: none;
+}
+
+.ext-link {
+	border: 1px solid #DEDEDE;
+	border-radius: 3px;
+	padding: 5px 10px 5px 10px;
+}
+
+.ext-link:hover {
+	border: 1px solid #D0D0D0;
+	background-color: 1px solid #E0E0E0;
+
+}
+
+@keyframes marquee_move {
+	0%   {background-position-x: 0px;}
+	100% {background-position-x: 14px;}
+}
+
+.marquee {
+	background-image: linear-gradient(to right, #000 10px, rgba(255, 255, 255, 0) 4px);
+	background-position: top;
+	background-size: 14px 10px;
+	background-repeat: repeat-x;
+	animation-name: marquee_move;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 0.5s;
+	height: 10px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	text-align: right;
+	font-size: small;
+	color: grey;
+	margin-top: 30px;
+}
+
+.footer:target {
+	background-color: #FFFFD2;
+	padding: 15px;
+}

@@ -68,7 +68,6 @@ blockquote {
 	max-width: 800px;
 	margin: auto;
 	text-align: justify;
-	font-weight: 200;
 	font-family: Calibri, Noto Sans, sans-serif;
 	padding: 10px;
 }
@@ -94,7 +93,6 @@ blockquote {
 	margin: auto;
 	line-height: 1.8;
 	text-align: justify;
-	font-weight: 200;
 	font-family: Calibri, Noto Sans, sans-serif;
 	padding: 10px;
 }

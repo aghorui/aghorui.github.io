@@ -69,7 +69,7 @@ blockquote {
 	margin: auto;
 	text-align: justify;
 	font-weight: 200;
-	font-family: 'Barlow', sans;
+	font-family: Calibri, Noto Sans, sans-serif;
 	padding: 10px;
 }
 
@@ -95,7 +95,7 @@ blockquote {
 	line-height: 1.8;
 	text-align: justify;
 	font-weight: 200;
-	font-family: 'Barlow', sans;
+	font-family: Calibri, Noto Sans, sans-serif;
 	padding: 10px;
 }
 

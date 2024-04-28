@@ -114,6 +114,12 @@ blockquote {
 	gap: 10px;
 }
 
+.yearsep {
+	color: grey;
+	font-size: small;
+	border-bottom: 1px solid grey;
+}
+
 .project {
 	padding-bottom: 10px;
 }

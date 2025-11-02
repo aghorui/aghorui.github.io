@@ -160,6 +160,15 @@ blockquote {
 	margin-bottom: 20px;
 }
 
+@media (prefers-color-scheme: dark) {
+	.marquee {
+		background-image: linear-gradient(to right, #FFFFFF 10px, rgba(0, 0, 0, 0) 4px);
+		color-scheme: only light !important;
+	}
+}
+
+
+
 .footer {
 	text-align: right;
 	font-size: small;
